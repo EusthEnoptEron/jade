@@ -11,6 +11,17 @@ Full documentation is at [jade-lang.com](http://jade-lang.com/)
  [![Dependency Status](https://gemnasium.com/visionmedia/jade.png)](https://gemnasium.com/visionmedia/jade)
  [![NPM version](https://badge.fury.io/js/jade.png)](http://badge.fury.io/js/jade)
 
+## This repository
+
+This is a personal flavor of jade tailored for my needs. It introduces a new syntax for adding attributes subsequently as opposed to in one batch.
+
+```jade
+myTag
+> (attribute1="value")
+> (attribute2="value") if condition
+> (attribute3="value") unless condition
+```
+
 ## Announcements
 
 **Deprecation of implicit script/style text-only:**
