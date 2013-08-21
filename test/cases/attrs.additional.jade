@@ -1,0 +1,5 @@
+div
+	- var condition = false
+	div#my-div Text content
+	> (class="conditionWasMet", data-label="nothing") unless condition
+	> (class="conditionWasntMet") if condition
