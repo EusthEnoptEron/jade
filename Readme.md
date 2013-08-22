@@ -7,7 +7,7 @@ Full documentation is at [jade-lang.com](http://jade-lang.com/)
 
  You can test drive Jade online [here](http://naltatis.github.com/jade-syntax-docs).
 
-## About this repository
+## About This Repository
 
 This is a personal flavor of jade tailored for my needs. It introduces a new syntax for adding attributes subsequently as opposed to in one batch.
 
@@ -17,6 +17,10 @@ myTag
 > (attribute1+="value") if condition
 > (attribute2="value") unless condition
 ```
+
+## Reasons For These Changes
+
+I always find it to be a hassle when I have to work with conditional attributes in HTML tags. E.g. when working with classes, I often end up with long and cumbersome code -- just to determine which classes belong in the tag.
 
 ## Announcements
 
