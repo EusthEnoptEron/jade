@@ -7,10 +7,6 @@ Full documentation is at [jade-lang.com](http://jade-lang.com/)
 
  You can test drive Jade online [here](http://naltatis.github.com/jade-syntax-docs).
 
- [![Build Status](https://travis-ci.org/visionmedia/jade.png?branch=master)](https://travis-ci.org/visionmedia/jade)
- [![Dependency Status](https://gemnasium.com/visionmedia/jade.png)](https://gemnasium.com/visionmedia/jade)
- [![NPM version](https://badge.fury.io/js/jade.png)](http://badge.fury.io/js/jade)
-
 ## About this repository
 
 This is a personal flavor of jade tailored for my needs. It introduces a new syntax for adding attributes subsequently as opposed to in one batch.
@@ -18,8 +14,8 @@ This is a personal flavor of jade tailored for my needs. It introduces a new syn
 ```jade
 myTag
 > (attribute1="value")
-> (attribute2="value") if condition
-> (attribute3="value") unless condition
+> (attribute1+="value") if condition
+> (attribute2="value") unless condition
 ```
 
 ## Announcements
